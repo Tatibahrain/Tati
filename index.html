@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .header,
+        footer{
+            border: 1px solid red;
+            flex:0 0 content ;
+        }
+
+        .main{
+            border: 1px solid red;
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+        }
+
+        .body{
+            display: flex;
+            flex-flow: column;
+            min-height: 100vh
+        }
+
+        .nav{
+            width: 10vh;
+        }
+
+
+
+
+    </style>
+</head>
+<body class="body"> 
+    <header class="header">
+        <p > Шапка страницы</p>
+
+    </header>
+    <main class="main">
+        <nav class="nav">
+            Основная част
+        <section class="section">Еще 1</section>
+        <section class="section">Еще 2</section>
+        <section class="section">Еще 3</section>
+
+        <div class="left"> 
+
+        <p>Боковая область</p>
+    
+        </div>
+    </nav>
+
+    </main>
+
+    <footer class="footer">
+        <section >Секция футера 1</section>
+        <section>Секция футера 2</section>
+        <section>Секция футера 3</section>
+        <section>Секция футера 4</section>
+    </footer>
+</body>
+</html>
