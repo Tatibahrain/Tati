@@ -4,64 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        .header,
-        footer{
-            border: 1px solid red;
-            flex:0 0 content ;
-        }
-
-        .main{
-            border: 1px solid red;
-            flex: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: stretch;
-        }
-
-        .body{
-            display: flex;
-            flex-flow: column;
-            min-height: 100vh
-        }
-
-        .nav{
-            width: 10vh;
-        }
-
-
-
-
-    </style>
+    <title>Webside</title>
+    <link rel="stylesheet" href="/website/normalize.css">
+    <link rel="stylesheet" href="/website/style.css">
 </head>
-<body class="body"> 
+
+<body class="body">
     <header class="header">
-        <p > Шапка страницы</p>
-
-    </header>
-    <main class="main">
-        <nav class="nav">
-            Основная част
-        <section class="section">Еще 1</section>
-        <section class="section">Еще 2</section>
-        <section class="section">Еще 3</section>
-
-        <div class="left"> 
-
-        <p>Боковая область</p>
-    
+        <label class="logo">multiTech</label>
+        <div class="link">
+            <a href="a">Новости </a>
+            <a href="a">Услуги</a>
+            <a href="a">Портфолио</a>
+            <a href="a">Лидогенерация</a>
+            <a href="a">Контакты</a>
         </div>
-    </nav>
+        <button class="button">
+            Обсудить проект
+        </button>
+    </header>
 
-    </main>
-
-    <footer class="footer">
-        <section >Секция футера 1</section>
-        <section>Секция футера 2</section>
-        <section>Секция футера 3</section>
-        <section>Секция футера 4</section>
-    </footer>
+        <main>
+            <h1 class="name">MultiTech</h1>
+            <img src="/website/pic/1-01 1.png" alt="wires" class="pic">
+            <div class="div">
+                <a class="link2">разработка сайтов</a>
+                <a class="link3">digital</a>
+            </div>
+        </main>
 </body>
 </html>

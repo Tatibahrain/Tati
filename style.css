@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.logo{
+position: absolute;
+width: 157px;
+height: 42px;
+left: 100px;
+top: 40px;
+
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 130%;
+color:#080808;
+}
+.link{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+    
+position: absolute;
+width: 488px;
+height: 19px;
+left: 550px;
+top: 51px;
+text-decoration-line: none;
+}
+.button{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 19px;
+    
+position: absolute;
+width: 163px;
+height: 40px;
+left: 1080px;
+top: 40px;
+
+border-radius: 15px;
+background-color: rgb(55, 108, 207);
+}
+.name{
+position: absolute;
+width: 801px;
+height: 176px;
+left: 100px;
+top: 317px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 700;
+font-size: 160px;
+line-height: 110%;
+/* identical to box height, or 176px */
+
+letter-spacing: -5px;
+
+color: #252525;
+}
+.pic{
+position: absolute;
+width: 1284.17px;
+height: 900.43px;
+left: 350px;
+top: -47.04px;
+
+background: url(1-01.png);
+transform: rotate(18.46deg)
+}
+.link2{
+position: absolute;
+width: 198px;
+height: 22px;
+left: 150px;
+top: 600px;
+    
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+    /* identical to box height, or 22px */
+    
+text-decoration-line: underline;   
+}
+.link3{
+position: absolute;
+width: 64px;
+height: 22px;
+left: 350px;
+top: 600px;
+
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+/* identical to box height, or 22px */
+
+text-decoration-line: underline;
+}
